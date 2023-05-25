@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Başlıksız Belge</title>
+<script language="javascript" type="text/javascript">
+var st=prompt("Su tüketim miktarını girin= ");
+if (st>0 && st<=200)
+{var ucret=Number(st)*5;}
+else if (st>200 && st<=300)
+{var ucret=(200*5)+(Number(st)-200)*10;}
+else if (st>300 && st<=500)
+{var ucret=(200*5)+(100*10)+(Number(st)-300)*15;}
+else 
+{var ucret=(200*5)+(100*10)+(200*15)+(Number(st)-500)*20;}
+
+alert("ödeyeceğiniz ücret= "+ ucret);
+</script>
+
+
+</head>
+
+<body>
+</body>
+</html>

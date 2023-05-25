@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Başlıksız Belge</title>
+</head>
+
+<body>
+<script language="javascript" type="text/javascript">
+var s1=prompt("birinci sayıyı girin = ");
+
+var s2=prompt("ikinci sayıyı girin = ");
+
+if (isNaN(s1)|| isNaN(s2))
+{ document.write("sayı girişi yapmalısınız"+ "</br>");}
+else{
+	var sec=prompt("İşlem seciminizi yapın (+,-,*,/) =");
+	  if(sec=='+')
+	    { var topla=Number(s1)+Number(s2);
+		document.write("Sayıların Toplamı= "+ topla +"</br>");}
+		else if(sec=='-')
+	    { var fark=Number(s1) -Number(s2);
+		document.write("Sayıların farkı = "+ fark +"</br>");}
+		else if(sec=='*')
+	    { var carp=Number(s1)*Number(s2);
+		document.write("Sayıların carpımı= "+ carp +"</br>");}
+		else if(sec=='/')
+	    { var bol=Number(s1)/Number(s2);
+		document.write("Sayıların bolumu= "+ bol +"</br>");}
+		else { document.write("böyle bir işlem seçeneği yok");}
+}
+
+</script>
+</body>
+</html>

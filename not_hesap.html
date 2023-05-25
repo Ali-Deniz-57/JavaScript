@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Başlıksız Belge</title>
+</head>
+
+<body>
+<script language="javascript" type="text/javascript">
+var y1=prompt("1.yazılı notunu Girin=");
+var y2=prompt("2.yazılı notunu Girin=");
+var y3=prompt("3.yazılı notunu Girin=");
+var ort=(Number(y1)+Number(y2)+Number(y3))/3;
+document.write("Öğrencinin Ortalaması =  "+ ort +"</br>");
+if (ort>=0 && ort<=44)
+{document.write("Öğrencinin Notu  1 dir "+"</br>");}
+else if (ort>44 && ort<=54)
+{document.write("Öğrencinin Notu  2 dir "+"</br>");}
+else if (ort>54 && ort<=69)
+{document.write("Öğrencinin Notu  3 dir "+"</br>");}
+else if (ort>69 && ort<=84)
+{document.write("Öğrencinin Notu  4 dir "+"</br>");}
+else if (ort>84 && ort<=100)
+{document.write("Öğrencinin Notu  5 dir "+"</br>");}
+else 
+{ document.write("ortalama  0 ile 100 arasında olmalıdır" +  "Böyle bir not olamaz"+"</br>");}
+</script>
+</body>
+</html>

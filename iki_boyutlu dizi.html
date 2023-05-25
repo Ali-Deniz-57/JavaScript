@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Başlıksız Belge</title>
+<script language="javascript1.3" type="text/javascript">
+var ogrenci=new Array();
+var ortalama=new Array();
+
+var i;
+var j;
+for(i=0;i<=2;i++)
+{ var toplam=0; 
+for(j=0;j<=2;j++)
+    { ogrenci[j]=prompt(i+". öğrencinin "+j+".notunu girin =");
+		toplam=Number(toplam)+Number(ogrenci[j]);
+	}
+	ortalama[i]=Number(toplam)/3;
+}
+
+for(i=0;i<=2;i++)
+{document.write(i+". öğrencinin ortalaması= "+ortalama[i]+"</br>");
+}
+</script>
+</head>
+
+<body>
+</body>
+</html>
